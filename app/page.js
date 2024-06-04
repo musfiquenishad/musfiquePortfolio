@@ -6,7 +6,7 @@ export default function Home() {
       {/* Header */}
 
       <div className="flex items-center justify-center">
-        <nav className="pointer-events-auto mt-8 hidden md:block">
+        <nav className="pointer-events-auto mt-8">
           <ul className="flex rounded-full bg-zinc-800/90 px-3 text-sm font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-white/10 backdrop-blur">
             <li>
               <Link
