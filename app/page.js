@@ -27,9 +27,9 @@ export default function Home() {
             <li>
               <Link
                 className="relative block px-3 py-2 transition hover:text-teal-400"
-                href="/articles"
+                href="/notes"
               >
-                Articles
+                Notes
               </Link>
             </li>
             <li>
@@ -61,11 +61,9 @@ export default function Home() {
                 </h1>
                 <p className="mt-6 text-base text-zinc-400 ">
                   I’m Musfique, a software designer and entrepreneur based in
-                  Dhaka, Bangladesh. I develop technologies that empower regular
-                  people to explore internet on their own terms. I focus on
-                  crafting innovative technologies that enable ordinary people
-                  to navigate and use the internet according to their
-                  preferences.
+                  Dhaka, Bangladesh. I focus on crafting innovative technologies
+                  that enable ordinary people to navigate and use the internet
+                  according to their preferences.
                 </p>
 
                 <div className="mt-6 flex gap-6">
@@ -155,10 +153,10 @@ export default function Home() {
                         Projects
                       </Link>
                       <Link
-                        href="/articles"
+                        href="/notes"
                         className="transition hover:text-teal-400"
                       >
-                        Articles
+                        Notes
                       </Link>
                       <Link
                         href="/contact"
