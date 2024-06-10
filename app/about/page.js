@@ -220,7 +220,7 @@ function About() {
                       </h1>
                       <div className="mt-6 space-y-7 text-base text-zinc-400">
                         <p>
-                          I've been passionate about technology and
+                          I have been passionate about technology and
                           problem-solving for as long as I can remember. My
                           journey began in high school when I developed my first
                           applications using C programming, including a BMI
