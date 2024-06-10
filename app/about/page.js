@@ -254,8 +254,8 @@ function About() {
                         </p>
                         <p>
                           In addition to these projects, I developed and
-                          published a mathematical puzzle game, "Guess the
-                          Number," on the Google Play Store. This project not
+                          published a mathematical puzzle game, Guess the
+                          Number, on the Google Play Store. This project not
                           only honed my skills in mobile app development for
                           Android but also enhanced my problem-solving abilities
                           and creativity in designing engaging user experiences.
@@ -465,7 +465,7 @@ function About() {
             </div>
           </div>
         </footer>
-      </div>{" "}
+      </div>
     </div>
   );
 }
