@@ -266,7 +266,7 @@ function Contact() {
                       intelligence, sparked by creating my first C programming
                       applications in high school. At university, I led projects
                       like a web-based link shortener and an NFC contact-sharing
-                      platform, and developed the game "Guess the Number" for
+                      platform, and developed a game, Guess the Number for
                       Android. Currently, I work part-time as a software
                       developer at Lunitech LLC, where I continue to expand my
                       skills and expertise.

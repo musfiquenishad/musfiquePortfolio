@@ -86,6 +86,7 @@ function Notes() {
                         <div className="h-10 w-10 rounded-full  p-0.5 shadow-lg shadow-zinc-800/5 ring-1  backdrop-blur bg-zinc-800/90 ring-white/10">
                           <Link className="pointer-events-auto" href="/">
                             <Image
+                              alt="picture of musfique"
                               className="rounded-full  object-cover bg-zinc-800 h-9 w-9"
                               src="/profile.jpg"
                               width={512}
