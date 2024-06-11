@@ -90,6 +90,7 @@ function Contact() {
                               src="/profile.jpg"
                               width={512}
                               height={512}
+                              alt="picture of musfique"
                             />
                           </Link>
                         </div>
@@ -259,7 +260,7 @@ function Contact() {
                       About
                     </dt>
                     <dd className="mt-1 text-sm leading-6 text-zinc-200 sm:col-span-2 sm:mt-0">
-                      I'm Musfique Ahsan Nishad, a Computer Science and
+                      I am Musfique Ahsan Nishad, a Computer Science and
                       Engineering student at Southeast University in Bangladesh.
                       I have a passion for software engineering and artificial
                       intelligence, sparked by creating my first C programming
