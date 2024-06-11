@@ -229,7 +229,7 @@ export default function Home() {
             <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl sm:w-72 sm:rounded-2xl bg-zinc-800 rotate-2">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
-                src="/image1.png"
+                src="/image.png"
                 width={3744}
                 height={5616}
                 alt="Guess The Number Game mockup"
