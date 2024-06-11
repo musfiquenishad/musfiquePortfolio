@@ -89,6 +89,7 @@ export default function Projects() {
                               src="/profile.jpg"
                               width={512}
                               height={512}
+                              alt="picture of musfique"
                             />
                           </Link>
                         </div>
@@ -221,6 +222,7 @@ export default function Projects() {
                             src="/guessTheNumber.webp"
                             width={32}
                             height={32}
+                            alt="guess the number logo"
                           />
                         </div>
                         <h2 className="mt-6 text-base font-semibold text-zinc-100">
@@ -255,7 +257,12 @@ export default function Projects() {
                       </li>{" "}
                       <li className="group relative flex flex-col items-start">
                         <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full  shadow-md shadow-zinc-800/5  ring-zinc-900/5 border border-zinc-700/50 bg-zinc-800 ring-0">
-                          <Image src="/Lunitech.png" width={32} height={32} />
+                          <Image
+                            src="/Lunitech.png"
+                            alt="lunitech logo"
+                            width={32}
+                            height={32}
+                          />
                         </div>
                         <h2 className="mt-6 text-base font-semibold text-zinc-100">
                           <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl bg-zinc-800/50"></div>
@@ -285,7 +292,12 @@ export default function Projects() {
                       </li>
                       <li className="group relative flex flex-col items-start">
                         <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full  shadow-md shadow-zinc-800/5  ring-zinc-900/5 border border-zinc-700/50 bg-zinc-800 ring-0">
-                          <Image src="/tapeasy.png" width={32} height={32} />
+                          <Image
+                            src="/tapeasy.png"
+                            alt="tapeasy logo"
+                            width={32}
+                            height={32}
+                          />
                         </div>
                         <h2 className="mt-6 text-base font-semibold text-zinc-100">
                           <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl bg-zinc-800/50"></div>

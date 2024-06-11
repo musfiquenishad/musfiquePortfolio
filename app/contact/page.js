@@ -10,6 +10,8 @@ import {
   Transition,
   TransitionChild,
 } from "@headlessui/react";
+import { PaperClipIcon } from "@heroicons/react/20/solid";
+
 function Contact() {
   const [open, setOpen] = useState(false);
   return (
@@ -205,7 +207,8 @@ function Contact() {
                       Get in touch with me.
                     </h1>
                     <p className="mt-6 text-base text-zinc-400">
-                      Here are some of my contact lists and my office location
+                      Feel free to send me an email, lets build something big
+                      together.
                     </p>
                   </header>
                 </div>
@@ -213,27 +216,126 @@ function Contact() {
             </div>
           </div>
 
-          <div className="mt-52 mb-52 sm:mt-20 flex items-center justify-center">
-            <p className="mt-6 text-xl text-teal-500 flex font-semibold">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="size-6"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M2.25 6a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V6Zm3.97.97a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 0 1-1.06-1.06l1.72-1.72-1.72-1.72a.75.75 0 0 1 0-1.06Zm4.28 4.28a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
-                  clipRule="evenodd"
-                />
-              </svg>
+          <div className=" sm:mt-28 flex items-center justify-center mx-auto w-full max-w-5xl px-2 mt-20">
+            <div>
+              <div className="px-4 sm:px-0">
+                <h3 className="text-base font-semibold leading-7 text-zinc-100">
+                  Contact Information
+                </h3>
+                <p className="mt-1 max-w-2xl text-sm leading-6 text-zinc-200">
+                  Personal details and Contact.
+                </p>
+              </div>
+              <div className="mt-6 border-t border-zinc-700/40">
+                <dl className="divide-y divide-zinc-700/40">
+                  <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                    <dt className="text-sm font-medium leading-6 text-zinc-100">
+                      Full name
+                    </dt>
+                    <dd className="mt-1 text-sm leading-6 text-zinc-200 sm:col-span-2 sm:mt-0">
+                      Musfique Ahsan Nishad
+                    </dd>
+                  </div>
 
-              <span className="ml-4">
-                This page is Under Development, Please go to{" "}
-                <Link href="/about">About</Link> page and find my details from
-                there.
-              </span>
-            </p>
+                  <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                    <dt className="text-sm font-medium leading-6 text-zinc-100">
+                      Email address
+                    </dt>
+                    <dd className="mt-1 text-sm leading-6 text-zinc-200 sm:col-span-2 sm:mt-0">
+                      musfiquenishad@gmail.com
+                    </dd>
+                  </div>
+
+                  <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                    <dt className="text-sm font-medium leading-6 text-zinc-100">
+                      Address
+                    </dt>
+                    <dd className="mt-1 text-sm leading-6 text-zinc-200 sm:col-span-2 sm:mt-0">
+                      Paterbug, Dania, Dhaka-1236, Bangladesh.
+                    </dd>
+                  </div>
+                  <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                    <dt className="text-sm font-medium leading-6 text-zinc-100">
+                      About
+                    </dt>
+                    <dd className="mt-1 text-sm leading-6 text-zinc-200 sm:col-span-2 sm:mt-0">
+                      I'm Musfique Ahsan Nishad, a Computer Science and
+                      Engineering student at Southeast University in Bangladesh.
+                      I have a passion for software engineering and artificial
+                      intelligence, sparked by creating my first C programming
+                      applications in high school. At university, I led projects
+                      like a web-based link shortener and an NFC contact-sharing
+                      platform, and developed the game "Guess the Number" for
+                      Android. Currently, I work part-time as a software
+                      developer at Lunitech LLC, where I continue to expand my
+                      skills and expertise.
+                    </dd>
+                  </div>
+                  <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                    <dt className="text-sm font-medium leading-6 text-zinc-100">
+                      Download Resume
+                    </dt>
+                    <dd className="mt-2 text-sm text-zinc-100 sm:col-span-2 sm:mt-0">
+                      <ul
+                        role="list"
+                        className="divide-y divide-zinc-700/40 rounded-md border border-zinc-700/40"
+                      >
+                        <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                          <div className="flex w-0 flex-1 items-center">
+                            <PaperClipIcon
+                              className="h-5 w-5 flex-shrink-0 text-zinc-200"
+                              aria-hidden="true"
+                            />
+                            <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                              <span className="truncate font-medium">
+                                musfique_ahsan_resume.pdf
+                              </span>
+                              <span className="flex-shrink-0 text-zinc-200">
+                                456kb
+                              </span>
+                            </div>
+                          </div>
+                          <div className="ml-4 flex-shrink-0">
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/MusfiqueAhsanNishadCV.pdf?alt=media&token=bf3fbabc-aac4-4324-8107-3f87248ee19b"
+                              className="font-medium text-teal-500 hover:text-teal-400"
+                            >
+                              Download
+                            </a>
+                          </div>
+                        </li>
+                        <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                          <div className="flex w-0 flex-1 items-center">
+                            <PaperClipIcon
+                              className="h-5 w-5 flex-shrink-0 text-zinc-200"
+                              aria-hidden="true"
+                            />
+                            <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                              <span className="truncate font-medium">
+                                musfique_ahsan_cover_letter.pdf
+                              </span>
+                              <span className="flex-shrink-0 text-zinc-200">
+                                4.5mb
+                              </span>
+                            </div>
+                          </div>
+                          <div className="ml-4 flex-shrink-0">
+                            <a
+                              href="#"
+                              className="font-medium text-teal-500 hover:text-teal-400"
+                            >
+                              Download
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
           </div>
         </main>
 

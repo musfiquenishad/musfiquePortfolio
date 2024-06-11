@@ -210,6 +210,7 @@ function About() {
                           src="/aboutprofile.jpg"
                           width={800}
                           height={800}
+                          alt="Picture of Musfique"
                         />
                       </div>
                     </div>

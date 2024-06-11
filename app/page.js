@@ -232,16 +232,16 @@ export default function Home() {
                 src="/image1.png"
                 width={3744}
                 height={5616}
-                alt="Picture of the author"
+                alt="Guess The Number Game mockup"
               />
             </div>
             <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl sm:w-72 sm:rounded-2xl bg-zinc-800 -rotate-2">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
-                src="/image2.png"
+                src="/image2alt.png"
                 width={3936}
                 height={2624}
-                alt="Picture of the author"
+                alt="Guess The Number Game mockup"
               />
             </div>
             <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl sm:w-72 sm:rounded-2xl bg-zinc-800 rotate-2">
@@ -250,7 +250,7 @@ export default function Home() {
                 src="/image3.png"
                 width={5760}
                 height={3840}
-                alt="Picture of the author"
+                alt="Tapeasy website mockup"
               />
             </div>
             <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl sm:w-72 sm:rounded-2xl bg-zinc-800 -rotate-2">
@@ -259,7 +259,7 @@ export default function Home() {
                 src="/image4.png"
                 width={2400}
                 height={3000}
-                alt="Picture of the author"
+                alt="Tapeasy Profile mockup"
               />
             </div>
             <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl sm:w-72 sm:rounded-2xl bg-zinc-800 rotate-2">
@@ -268,7 +268,7 @@ export default function Home() {
                 src="/image5.png"
                 width={3120}
                 height={4160}
-                alt="Picture of the author"
+                alt="Tapeasy profile share with qr code mockup"
               />
             </div>
           </div>
