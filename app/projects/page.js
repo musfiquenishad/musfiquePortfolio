@@ -86,7 +86,7 @@ export default function Projects() {
 													<Link className="pointer-events-auto" href="/">
 														<Image
 															className="rounded-full  object-cover bg-zinc-800 h-9 w-9"
-															src="/profile.jpg"
+															src="/avatar.jpg"
 															width={512}
 															height={512}
 															alt="picture of musfique"
@@ -166,7 +166,7 @@ export default function Projects() {
 														className="group rounded-full px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1  backdrop-blur transition bg-zinc-800/90 ring-white/10 hover:ring-white/20"
 													>
 														<a
-															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/MusfiqueAhsanNishadCV.pdf?alt=media&token=bf3fbabc-aac4-4324-8107-3f87248ee19b"
+															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/resume.pdf?alt=media&token=58661fde-39cd-425a-b914-c35d66cccf3c"
 															target="_blank"
 															rel="noopener noreferrer"
 														>
@@ -219,7 +219,7 @@ export default function Projects() {
 											<li className="group relative flex flex-col items-start">
 												<div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full  shadow-md shadow-zinc-800/5  ring-zinc-900/5 border border-zinc-700/50 bg-zinc-800 ring-0">
 													<Image
-														src="/guessTheNumber.webp"
+														src="/guessTheNumberIcon.png"
 														width={32}
 														height={32}
 														alt="guess the number logo"
@@ -227,7 +227,7 @@ export default function Projects() {
 												</div>
 												<h2 className="mt-6 text-base font-semibold text-zinc-100">
 													<div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl bg-zinc-800/50"></div>
-													<a href="https://play.google.com/store/apps/details?id=com.musfiquenishad.GuessTheNumber&pcampaignid=web_share">
+													<a href="https://guess.lunitech.co">
 														<span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
 														<span className="relative z-10">
 															Guess The Number
@@ -252,7 +252,7 @@ export default function Projects() {
 														<path d="M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z" />
 													</svg>
 
-													<span className="ml-2">www.play.google.com</span>
+													<span className="ml-2">www.guess.lunitech.co</span>
 												</p>
 											</li>{" "}
 											<li className="group relative flex flex-col items-start">
@@ -368,7 +368,8 @@ export default function Projects() {
 												</Link>
 											</div>
 											<p className="text-sm text-zinc-500">
-												© 2024 Musfique All rights reserved.
+												© {new Date().getFullYear()} Musfique All rights
+												reserved.
 											</p>
 										</div>
 									</div>

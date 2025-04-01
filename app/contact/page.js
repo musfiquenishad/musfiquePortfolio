@@ -87,7 +87,7 @@ function Contact() {
 													<Link className="pointer-events-auto" href="/">
 														<Image
 															className="rounded-full  object-cover bg-zinc-800 h-9 w-9"
-															src="/profile.jpg"
+															src="/avatar.jpg"
 															width={512}
 															height={512}
 															alt="picture of musfique"
@@ -167,7 +167,7 @@ function Contact() {
 														className="group rounded-full px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1  backdrop-blur transition bg-zinc-800/90 ring-white/10 hover:ring-white/20"
 													>
 														<a
-															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/MusfiqueAhsanNishadCV.pdf?alt=media&token=bf3fbabc-aac4-4324-8107-3f87248ee19b"
+															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/resume.pdf?alt=media&token=58661fde-39cd-425a-b914-c35d66cccf3c"
 															target="_blank"
 															rel="noopener noreferrer"
 														>
@@ -243,7 +243,7 @@ function Contact() {
 											Email address
 										</dt>
 										<dd className="mt-1 text-sm leading-6 text-zinc-200 sm:col-span-2 sm:mt-0">
-											musfiquenishad@gmail.com
+											musfiquenishad@gmail.com, nishad@lunitech.co
 										</dd>
 									</div>
 
@@ -267,9 +267,9 @@ function Contact() {
 											applications in high school. At university, I led projects
 											like a web-based link shortener and an NFC contact-sharing
 											platform, and developed a game, Guess the Number for
-											Android. Currently, I work part-time as a software
-											developer at Lunitech LLC, where I continue to expand my
-											skills and expertise.
+											Android & IOS. Currently, I work as a software developer
+											at Lunitech LLC, where I continue to expand my skills and
+											expertise.
 										</dd>
 									</div>
 									<div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -292,7 +292,7 @@ function Contact() {
 																resume.pdf
 															</span>
 															<span className="flex-shrink-0 text-zinc-200">
-																456kb
+																137.8kb
 															</span>
 														</div>
 													</div>
@@ -300,7 +300,7 @@ function Contact() {
 														<a
 															target="_blank"
 															rel="noopener noreferrer"
-															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/MusfiqueAhsanNishadCV.pdf?alt=media&token=bf3fbabc-aac4-4324-8107-3f87248ee19b"
+															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/resume.pdf?alt=media&token=58661fde-39cd-425a-b914-c35d66cccf3c"
 															className="font-medium text-teal-500 hover:text-teal-400"
 														>
 															Download
@@ -318,7 +318,7 @@ function Contact() {
 																cover_letter.pdf
 															</span>
 															<span className="flex-shrink-0 text-zinc-200">
-																37.9kb
+																61.8kb
 															</span>
 														</div>
 													</div>
@@ -326,7 +326,7 @@ function Contact() {
 														<a
 															target="_blank"
 															rel="noopener noreferrer"
-															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/CoverLetter.pdf?alt=media&token=ff222ae3-8dfb-416c-837a-9a888009a55a"
+															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/cover_letter.pdf?alt=media&token=d3ef6fa2-c566-4093-bafc-94942e837c0f"
 															className="font-medium text-teal-500 hover:text-teal-400"
 														>
 															Download
@@ -376,7 +376,8 @@ function Contact() {
 												</Link>
 											</div>
 											<p className="text-sm text-zinc-500">
-												© 2024 Musfique All rights reserved.
+												© {new Date().getFullYear()} Musfique All rights
+												reserved.
 											</p>
 										</div>
 									</div>

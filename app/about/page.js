@@ -87,7 +87,7 @@ function About() {
 													<Link className="pointer-events-auto" href="/">
 														<Image
 															className="rounded-full  object-cover bg-zinc-800 h-9 w-9"
-															src="/profile.jpg"
+															src="/avatar.jpg"
 															width={512}
 															height={512}
 															alt="picture of musfique"
@@ -167,7 +167,7 @@ function About() {
 														className="group rounded-full px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1  backdrop-blur transition bg-zinc-800/90 ring-white/10 hover:ring-white/20"
 													>
 														<a
-															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/MusfiqueAhsanNishadCV.pdf?alt=media&token=bf3fbabc-aac4-4324-8107-3f87248ee19b"
+															href="https://firebasestorage.googleapis.com/v0/b/musfiqueportfolio.appspot.com/o/resume.pdf?alt=media&token=58661fde-39cd-425a-b914-c35d66cccf3c"
 															target="_blank"
 															rel="noopener noreferrer"
 														>
@@ -208,7 +208,7 @@ function About() {
 											<div className="max-w-xs px-2.5 lg:max-w-none">
 												<Image
 													className="aspect-square rotate-3 rounded-2xl  object-cover bg-zinc-800"
-													src="/aboutprofile.jpg"
+													src="/avatar.jpg"
 													width={800}
 													height={800}
 													alt="Picture of Musfique"
@@ -217,53 +217,49 @@ function About() {
 										</div>
 										<div className="lg:order-first lg:row-span-2">
 											<h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-100">
-												I’m Musfique Ahsan Nishad. I live in Dhaka, where I
-												design the future.
+												I’m Musfique Ahsan Nishad. I design the future.
 											</h1>
 											<div className="mt-6 space-y-7 text-base text-zinc-400">
 												<p>
-													I have been passionate about technology and
-													problem-solving for as long as I can remember. My
-													journey began in high school when I developed my first
-													applications using C programming, including a BMI
-													calculator and a temperature converter. These early
-													projects sparked my interest in software engineering
-													and artificial intelligence.
+													My passion for technology and problem-solving has
+													driven me since the beginning. My journey started in
+													high school when I built my first applications using C
+													programming, including a BMI calculator and a
+													temperature converter. These early projects ignited my
+													interest in software engineering.
 												</p>
 												<p>
-													As I continued my education at Southeast University
-													(SEU) in Bangladesh, where I am currently studying
-													Computer Science and Engineering, I expanded my skills
-													through various innovative projects. One of my
-													significant undertakings was leading the development
-													of a web-based link shortener, which allowed users to
-													create and manage shortened URLs efficiently. This
-													project enhanced my understanding of web development,
-													including front-end and back-end programming with
-													technologies like HTML, CSS, JavaScript, React JS, and
-													Node JS.
+													During my studies in Computer Science and Engineering
+													at Southeast University (SEU), I expanded my skills
+													through various innovative projects. One of my key
+													achievements was leading the development of a
+													web-based link shortener, allowing users to create and
+													manage shortened URLs efficiently. This project
+													deepened my expertise in web development, including
+													front-end and back-end technologies such as HTML, CSS,
+													JavaScript, React.js, and Node.js.
 												</p>
 												<p>
-													Another notable project was an NFC chip-programmed
-													contact-sharing platform. This platform aimed to
-													create a sustainable alternative to traditional
-													business cards by allowing users to share contact
-													information seamlessly through NFC technology. Working
-													on this project provided me with hands-on experience
-													in NFC chipset programming and deepened my knowledge
-													of NoSQL databases such as MongoDB and Firebase for
-													handling user data operations.
+													Another significant project involved creating an
+													NFC-based contact-sharing platform, offering a
+													sustainable alternative to traditional business cards.
+													This project provided me with hands-on experience in
+													NFC technology and strengthened my understanding of
+													NoSQL databases like MongoDB and Firebase for handling
+													user data operations.
 												</p>
 												<p>
-													In addition to these projects, I developed and
-													published a mathematical puzzle game, Guess the
-													Number, on the Google Play Store. This project not
-													only honed my skills in mobile app development for
-													Android but also enhanced my problem-solving abilities
-													and creativity in designing engaging user experiences.
+													In addition to these, I developed and published a
+													mathematical puzzle game,
+													<em>Guess the Number</em>, on the Google Play Store
+													and Apple App Store. This project refined my mobile
+													app development skills and enhanced my ability to
+													create engaging user experiences while solving complex
+													challenges.
 												</p>
 											</div>
 										</div>
+
 										<div className="lg:pl-20">
 											<ul role="list">
 												<li className="flex">
@@ -400,7 +396,7 @@ function About() {
 												<li className="mt-8 border-t pt-8 border-zinc-700/40 flex">
 													<a
 														className="group flex text-sm font-medium transition text-zinc-200 hover:text-teal-500"
-														href="mailto:musfiquenishad@gmail.com"
+														href="mailto:nishad@lunitech.co"
 													>
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
@@ -412,7 +408,7 @@ function About() {
 															<path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
 														</svg>
 														<span className="ml-4"></span>
-														contact@musfique.com
+														nishad@lunitech.co
 													</a>
 												</li>
 											</ul>
@@ -458,7 +454,8 @@ function About() {
 												</Link>
 											</div>
 											<p className="text-sm text-zinc-500">
-												© 2024 Musfique All rights reserved.
+												© {new Date().getFullYear()} Musfique All rights
+												reserved.
 											</p>
 										</div>
 									</div>
