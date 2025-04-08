@@ -213,7 +213,7 @@ function Notes() {
 					</div>
 				</header>
 
-				<main className="flex-auto py-10">
+				<main className="flex-auto pt-32">
 					<div className="max-w-4xl mx-auto space-y-6">
 						{/* Title & Intro */}
 						<div>
@@ -256,7 +256,7 @@ function Notes() {
 									width={1200}
 									height={700}
 									onClick={() => setIsOpen(true)}
-									className="w-full h-[600px] object-cover cursor-pointer transition hover:scale-[1.01]"
+									className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
 								/>
 								<button
 									onClick={prevImage}
@@ -378,7 +378,7 @@ function Notes() {
 						</section>
 
 						{/* Back Button */}
-						<div className="mt-12 text-center">
+						<div className="pt-20 text-center">
 							<a
 								href="/projects"
 								className="inline-block bg-teal-500 hover:bg-teal-600 text-gray-900 font-semibold py-2 px-5 rounded-full transition"

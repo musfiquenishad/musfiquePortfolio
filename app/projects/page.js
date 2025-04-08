@@ -337,12 +337,12 @@ export default function Projects() {
 												</div>
 												<h2 className="mt-6 text-base font-semibold text-zinc-100">
 													<div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl bg-zinc-800/50"></div>
-													<a href="https://musfique.com/projects/linqnest">
+													<Link href="/projects/linqnest">
 														<span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
 														<span className="relative z-10">
 															Linqnest UI/UX Design
 														</span>
-													</a>
+													</Link>
 												</h2>
 												<p className="relative z-10 mt-2 text-sm  text-zinc-400">
 													Linqnest is a modern web-based platform that helps
