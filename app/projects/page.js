@@ -326,6 +326,43 @@ export default function Projects() {
 													<span className="ml-2">www.gotapeasy.com</span>
 												</p>
 											</li>
+											<li className="group relative flex flex-col items-start">
+												<div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full  shadow-md shadow-zinc-800/5  ring-zinc-900/5 border border-zinc-700/50 bg-zinc-800 ring-0">
+													<Image
+														src="/linqnest-icon.png"
+														alt="linqnest logo"
+														width={32}
+														height={32}
+													/>
+												</div>
+												<h2 className="mt-6 text-base font-semibold text-zinc-100">
+													<div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 sm:-inset-x-6 sm:rounded-2xl bg-zinc-800/50"></div>
+													<a href="https://musfique.com/projects/linqnest">
+														<span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
+														<span className="relative z-10">
+															Linqnest UI/UX Design
+														</span>
+													</a>
+												</h2>
+												<p className="relative z-10 mt-2 text-sm  text-zinc-400">
+													Linqnest is a modern web-based platform that helps
+													users shorten, manage, and organize their important
+													links with ease.
+												</p>
+												<p className="relative z-10 mt-6 flex text-sm font-medium transition group-hover:text-teal-500 text-zinc-200">
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 20 20"
+														fill="currentColor"
+														className="size-5"
+													>
+														<path d="M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z" />
+														<path d="M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z" />
+													</svg>
+
+													<span className="ml-2">projects/linqnest</span>
+												</p>
+											</li>
 										</ul>
 									</div>
 								</div>
