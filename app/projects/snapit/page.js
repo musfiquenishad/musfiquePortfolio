@@ -13,11 +13,7 @@ import {
 
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
-const images = [
-	"/linqnest-web-dark.png",
-	"/linqnest-web-light.png",
-	"/linqnest-mobile-dark.png",
-];
+const images = ["/snapitui-1.png", "/snapitui-2.png"];
 
 function Notes() {
 	const [open, setOpen] = useState(false);
@@ -220,30 +216,33 @@ function Notes() {
 							<p className="text-sm text-gray-400">March 2025</p>
 							<h1 className="text-4xl font-extrabold leading-tight">
 								Designing UI/UX for{" "}
-								<span className="text-red-500">Linqnest</span>
+								<span className="text-yellow-500">Snapit APP</span>
 							</h1>
 							<p className="text-gray-400 mt-2">
-								Role: UI/UX Designer · Tools: Figma · Duration: 3 weeks
+								Role: UI/UX Designer · Tools: Figma · Duration: 4 weeks
 							</p>
 							<p className="text-gray-300 mt-4">
-								Linqnest is a modern web-based platform that helps users
-								shorten, manage, and organize their important links with ease.
-								My goal was to create a sleek, user-friendly dashboard that
-								feels fast, accessible, and visually delightful—across all
-								screen sizes.
+								Snapit is a cross-platform photo and video sharing app that
+								helps users easily send and receive high-quality media files
+								between different devices—whether it’s Android or iPhone. I was
+								responsible for designing the end-to-end user experience and
+								interface, with a strong focus on simplicity, speed, and joyful
+								interactions.
 							</p>
 						</div>
 
 						{/* Problem Statement */}
 						<section className="text-gray-300">
-							<h2 className="text-2xl font-bold text-white mt-6 border-l-4 border-red-500 pl-3">
+							<h2 className="text-2xl font-bold text-white mt-6 border-l-4 border-yellow-500 pl-3">
 								The Challenge
 							</h2>
 							<p className="mt-2">
-								Users needed a clean and intuitive way to manage long lists of
-								URLs, create short links, and share them effectively. The
-								original concept lacked visual clarity and did not scale well
-								across devices.
+								During events like trips, birthdays, or group outings, users
+								often struggle to collect all the photos and videos taken by
+								different people. Existing solutions either compress media,
+								require complicated setup, or limit sharing across platforms.
+								Snapit needed a clean and intuitive interface that made sharing
+								media feel as easy as messaging—without compromising quality.
 							</p>
 						</section>
 
@@ -280,7 +279,7 @@ function Notes() {
 										onClick={() => setCurrentImageIndex(i)}
 										className={`w-24 h-16 overflow-hidden rounded-md cursor-pointer border ${
 											i === currentImageIndex
-												? "border-red-500"
+												? "border-yellow-500"
 												: "border-gray-700"
 										}`}
 									>
@@ -317,63 +316,97 @@ function Notes() {
 
 						{/* UX Process */}
 						<section className="text-gray-300">
-							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-red-500 pl-3">
+							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-yellow-500 pl-3">
 								My Design Process
 							</h2>
 							<ul className="list-disc list-inside space-y-1 mt-2">
 								<li>
-									Interviewed 4 target users to understand link management pain
-									points
+									User Discovery: Conducted interviews with 6 users who
+									frequently share media in groups to identify their biggest
+									pain points.
 								</li>
 								<li>
-									Created low-fidelity wireframes to map out key interactions
+									Journey Mapping: Mapped out user flows for sending, receiving,
+									and organizing shared media.
 								</li>
-								<li>Designed light & dark responsive versions in Figma</li>
-								<li>Built an interactive prototype for usability testing</li>
+								<li>
+									Wireframes: Created low-fidelity wireframes to explore
+									different sharing mechanics and onboarding flows.
+								</li>
+								<li>
+									High-Fidelity UI: Designed an engaging, friendly interface
+									using a yellow (#F59E0B / yellow-500) accent to reflect
+									energy, warmth, and creativity.
+								</li>
+								<li>
+									Prototyping: Built interactive prototypes for both Android and
+									iOS views, and ran usability testing on TestFlight and Expo
+									Go.
+								</li>
 							</ul>
 						</section>
 
 						{/* Style Guide */}
 						<section className="text-gray-300">
-							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-red-500 pl-3">
+							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-yellow-500 pl-3">
 								Design System
 							</h2>
-							<p className="mt-2">
-								The Linqnest design uses a modern dark/light theme switcher with
-								high contrast text, red highlights for CTAs, and rounded UI
-								elements for a clean, professional look. The typography is
-								minimalist and responsive, ensuring excellent readability.
-							</p>
+							<ul className="list-disc list-inside space-y-1 mt-2">
+								<li>
+									Bright Yellow Accent: Used as a primary action color to
+									encourage user engagement and highlight core actions like
+									Share, Create Room, and Upload.
+								</li>
+								<li>
+									Media-First Layout: Prioritized image and video thumbnails,
+									full-width previews, and smooth media transitions.
+								</li>
+								<li>
+									Reusable Components: Created a flexible design system for
+									buttons, avatars, bottom sheets, QR share cards, and status
+									indicators.
+								</li>
+								<li>
+									Dark Mode Support: Designed dark mode to enhance viewing
+									experience during nighttime or in low-light environments.
+								</li>
+							</ul>
 						</section>
 
 						{/* Outcome */}
 						<section className="text-gray-300">
-							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-red-500 pl-3">
+							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-yellow-500 pl-3">
 								Results
 							</h2>
 							<ul className="list-disc list-inside space-y-1 mt-2">
 								<li>
-									Increased prototype engagement time by 3x in usability testing
+									Prototype shared among test users resulted in over 500 shared
+									files in the first week.
 								</li>
 								<li>
-									Users praised the simple layout and intuitive link editing UI
+									Positive feedback on the ease of use, especially from less
+									tech-savvy users.
 								</li>
 								<li>
-									Mobile-friendly design improved link creation flow by 40%
+									Sharing flow time was reduced to under 30 seconds from app
+									launch to completed file transfer.
 								</li>
 							</ul>
 						</section>
 
 						{/* Final Thoughts */}
 						<section className="text-gray-300">
-							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-red-500 pl-3">
+							<h2 className="text-2xl font-bold text-white mt-8 border-l-4 border-yellow-500 pl-3">
 								What I Learned
 							</h2>
 							<p className="mt-2">
-								Simplicity wins. Even feature-rich tools like Linqnest benefit
-								from thoughtful spacing, minimal clicks, and accessible
-								typography. I also learned how powerful a clean UI can be in
-								reducing cognitive load for everyday tasks like link management.
+								Designing Snapit taught me the importance of emotional
+								design—people don’t just want functionality, they want something
+								that feels fast, friendly, and fun. I learned to simplify flows
+								without cutting core features and how to design for both techies
+								and casual users alike. Using color strategically helped create
+								trust and excitement in an app meant to be used during memorable
+								moments.
 							</p>
 						</section>
 
@@ -381,7 +414,7 @@ function Notes() {
 						<div className="pt-20 text-center">
 							<a
 								href="/projects"
-								className="inline-block bg-red-500 hover:bg-red-600 text-gray-900 font-semibold py-2 px-5 rounded-full transition"
+								className="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold py-2 px-5 rounded-full transition"
 							>
 								← Back to Projects
 							</a>
